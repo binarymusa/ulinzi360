@@ -730,6 +730,12 @@ section::before{
 
   border:1px solid var(--line);
 
+  padding:50px;
+
+  border-radius:var(--radius);
+
+  overflow:hidden;
+
   background:
   linear-gradient(
   180deg,
