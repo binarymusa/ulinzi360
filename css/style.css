@@ -1,6 +1,6 @@
 :root{
 
-  --bg-primary:#050C1A;
+  --bg-primary:#02114B;
   --bg-secondary:#0A1B2E;
 
   --gold:#C8952A;
@@ -135,7 +135,7 @@ section::before{
   width:100%;
   z-index:999;
 
-  background:rgba(5,12,26,0.88);
+  background:var(--bg-primary);
 
   backdrop-filter:blur(14px);
 
@@ -2545,6 +2545,7 @@ a{
 
   padding-bottom:140px;
 }
+
 
 .blog-card{
   position:relative;
