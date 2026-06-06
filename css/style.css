@@ -1,14 +1,14 @@
 :root{
+  --bg-primary:#20368b;
 
-  --bg-primary:#02114B;
-  --bg-secondary:#0A1B2E;
+  --bg-secondary:#1f3a58;
 
   --gold:#C8952A;
   --gold-light:#E2B04A;
   --gold-dim:#8A6318;
 
-  --text:#F5F1E8;
-  --muted:#9CA3AF;
+  --text:#ffffff;
+  --muted:#c8ccd2;
 
   --line:rgba(200,149,42,0.12);
 
@@ -37,7 +37,8 @@ html{
 body{
   background:var(--bg-primary);
   color:var(--text);
-  font-family:'DM Mono', monospace;
+  font-family: 'Poppins', sans-serif;
+  font-size: 400 1rem;
   overflow-x:hidden;
   position:relative;
 }
@@ -153,7 +154,7 @@ section::before{
 }
 
 .logo{
-  font-family:'Syne', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight:800;
   font-size:1.4rem;
   letter-spacing:0.08em;
@@ -303,7 +304,9 @@ section::before{
 }
 
 .page-hero h1{
-  font-family:'Syne', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  
+  font-weight: 700;
 
   font-size:clamp(3.5rem,8vw,7rem);
 
@@ -1129,11 +1132,13 @@ section::before{
 }
 
 .hero h1{
-  font-family:'Syne', sans-serif;
+  font-family: 'Poppins', sans-serif;
+
+  font-weight: 700;
 
   font-size:clamp(4rem,9vw,8rem);
 
-  line-height:.9;
+  line-height:.6;
 
   letter-spacing:-.05em;
 
@@ -1510,11 +1515,13 @@ section::before{
 }
 
 .page-hero h1{
-  font-family:'Syne', sans-serif;
+  font-family: 'Poppins', sans-serif;
+
+  font-weight: 700;
 
   font-size:clamp(4rem,8vw,7rem);
 
-  line-height:.92;
+  line-height: .9;
 
   letter-spacing:-.05em;
 
@@ -2349,6 +2356,8 @@ body{
 
   .hero-buttons a{
     width:100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
   }
 
 }
