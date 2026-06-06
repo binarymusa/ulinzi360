@@ -1138,7 +1138,7 @@ section::before{
 
   font-size:clamp(4rem,9vw,8rem);
 
-  line-height:.6;
+  line-height:.9;
 
   letter-spacing:-.05em;
 
